@@ -282,25 +282,26 @@ header .branding img{
 }
 
 .banner .banner__text form{
+    position: relative;
     display: flex;
     justify-content: center;
     
 }
 
-/* .banner .banner__text .form #search:focus,
-.banner .banner__text .form #search:hover{
+.banner .banner__text .form .search:focus,
+.banner .banner__text .form .search:hover{
     border-color:#4C5FD5 !important;
     outline: none;
 }
 
-.banner .banner__text .form:hover + .i{
+/* .banner .banner__text .form:hover + i{
     fill:#4C5FD5 !important;
 } */
 
-.banner .banner__text i{
+.banner .banner__text form i{
     position: absolute;
-    right: 34rem;
-    top: 30rem;
+    right: 35rem;
+    top: 2.5rem;
     font-size: 2.5rem; 
 }
 .banner .banner__text i:hover{
@@ -330,10 +331,10 @@ header .branding img{
         font-size: 2rem;
     }
 
-    .banner .banner__text i{
+    .banner .banner__text form i{
         position: absolute;
-        right: 2.5rem;
-        top: 21rem;
+        right: 2rem;
+        top: 2rem;
         
     }
 
@@ -426,7 +427,7 @@ header .branding img{
 .footer .footer__bottom{
     display: flex;
     justify-content: flex-end;
-    gap: 22.5rem;
+    gap: 27.5rem;
     color: #ffffff;
 }
 
@@ -440,15 +441,15 @@ header .branding img{
     font-size: 2rem;
 }
 
-.footer .footer__bottom img{
+.footer .footer__bottom img{    
     width: 12rem;
 
 }
 
 .footer .footer__wrapper .btn.help{
     position: fixed;
-    top:   57rem;
-    left: 123rem;
+    top:   86rem;
+    right: 3rem;
     font-weight: 600;
 }
 
@@ -494,8 +495,8 @@ header .branding img{
 
     .footer .footer__wrapper .btn.help{
         position: fixed;
-        top:  53rem;
-        left: 36rem;
+        top:  85rem;
+        right:3rem;
         font-weight: 600;
     }
 
